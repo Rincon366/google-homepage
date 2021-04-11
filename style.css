@@ -52,3 +52,10 @@
   align-items: center;
   font-size: 13px;
 }
+
+.logo-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 57px;
+}
