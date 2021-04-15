@@ -57,23 +57,40 @@
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 57px;
+  padding-top: 138px;
 }
 
 .search {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 25px;
-  padding-left: 14px;
+  padding-top: 23px;
+  padding-left: 10px;
   padding-right: 8px;
 }
 
+.search-box-container {
+  position: relative;
+}
+
 .search-box {
-  width: 560px;
-  height: 39px;
+  width: 584px;
+  height: 46px;
   border-radius: 50px;
   border: 1px solid #dfe1e5;
+}
+
+.search-icon {
+  position: absolute;
+  opacity: 0.4;
+  top: 13px;
+  left: 15px;
+}
+
+.mic-icon {
+  position: absolute;
+  top: 11px;
+  right: 17px;
 }
 
 .search-buttons {
@@ -84,7 +101,12 @@
 }
 
 .search-buttons button {
-  margin: 5px 10px;
-  padding: 10px 10px;
+  margin: 5px 6px;
+  padding: 10px 17px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
 }
